@@ -1,0 +1,59 @@
+.group {
+    margin-top: 200px;
+    display: inline;
+}
+p {
+    border: 1px solid black;
+    float: left;
+    width: 20%;
+    /*margin-left:90px;*/
+    
+    padding: 10px;
+}
+.container1 p {
+    position: absolute;
+    top: 268px;
+    left: 299px;
+    margin-left: -89px;
+}
+.container2 p {
+    margin-left: 5px;
+    position: absolute;
+    top: 268px;
+    left: 536px;
+}
+.container3 p {
+    position: absolute;
+    top: 267px;
+    left: 868px;
+}
+/*krug*/
+
+.circle {
+    position: relative;
+    background-color: black;
+    border: 1px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    left: 637px;
+    top: 239px;
+}
+.circle1 {
+    position: relative;
+    background-color: black;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    left: 312px;
+    top: 170px;
+}
+.circle2 {
+    position: relative;
+    background-color: black;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    left: 965px;
+    top: 103px;
+}
