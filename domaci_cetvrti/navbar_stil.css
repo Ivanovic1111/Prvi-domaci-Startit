@@ -15,14 +15,15 @@ nav li {
     border: 167px solid lightGreen;
     border-width: 8px 8px 7px 44px;
     margin: 57px -22px -34px 44px;}*/
+
 nav li a {
     padding: 0 10px;
 }
 #content {
-    border: 1px solid ;
+    border: 1px solid;
 }
 #selected {
-    padding-bottom: 1px; 
+    padding-bottom: 1px;
     background: white;
 }
 #header li {
@@ -30,12 +31,10 @@ nav li a {
     border: 3px solid lightGreen;
     margin: 0 5px 0 0;
 }
-
 #content {
     border: 1px ridge lightGreen;
     clear: both;
 }
-
 h1 {
     margin: 0;
     padding: 0 0 10px 0;
@@ -45,85 +44,80 @@ h1 {
     top: 1px;
     background: red;
 }
-section{
-	float:center;
-	background-color:#003B31;
-	height:31px;
-	width:717px;
+section {
+    float: center;
+    background-color: #003B31;
+    height: 31px;
+    width: 717px;
 }
-
-body > header > nav > ul > li:nth-child(1) > a{
-	background-color:#003B31;
+body > header > nav > ul > li:nth-child(1) > a {
+    background-color: #003B31;
 }
-body > header > nav > ul > li:nth-child(2) > a{
-	background-color:#003B31;
-}body > header > nav > ul > li:nth-child(3) > a{
-	background-color:#003B31;
-}body > header > nav > ul > li:nth-child(4) > a{
-	background-color:#003B31;
+body > header > nav > ul > li:nth-child(2) > a {
+    background-color: #003B31;
 }
-a{
-	text-decoration:none;
-	text-transform:uppercase;
+body > header > nav > ul > li:nth-child(3) > a {
+    background-color: #003B31;
+}
+body > header > nav > ul > li:nth-child(4) > a {
+    background-color: #003B31;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
     font-family: 'Titillium Web', sans-serif;
-	color:white;
-	    letter-spacing: 0.5em;
-
+    color: white;
+    letter-spacing: 0.5em;
 }
 /*stil za modalni dijalog*/
-p{
-	color:#747474;
-	font-size:13px;
-	text-align:justify;
-}
-#navbar{
-	display:block;
-	margin:40px;
-}
-body > div:nth-child(3) > div.flex-item > img{
-	margin:100px;
-	clear:both;
-	font-family: 'PT Sans', sans-serif;
-}
-h2{
-	margin:65px;
-	font-family: 'PT Sans', sans-serif;
 
+p {
+    color: #747474;
+    font-size: 13px;
+    text-align: justify;
+}
+#navbar {
+    display: block;
+    margin: 40px;
+}
+body > div:nth-child(3) > div.flex-item > img {
+    margin: 100px;
+    clear: both;
+    font-family: 'PT Sans', sans-serif;
+}
+h2 {
+    margin: 65px;
+    font-family: 'PT Sans', sans-serif;
 }
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
-	font-family: 'PT Sans', sans-serif;
-
+    font-family: 'PT Sans', sans-serif;
 }
-tr.white{
-	    background-color: #ffffff;
-		font-family: 'PT Sans', sans-serif;
-
-
+tr.white {
+    background-color: #ffffff;
+    font-family: 'PT Sans', sans-serif;
 }
-
-td, th {
+td,
+th {
     text-align: left;
     padding: 8px;
-	font-family: 'PT Sans', sans-serif;
-
+    font-family: 'PT Sans', sans-serif;
 }
-
 .grey {
     background-color: #dddddd;
 }
-#bottom1{
-	color:#cf0005;
-	font-size:13px;
-	font-style:italic;
-	font-family: 'PT Sans', sans-serif;
-}
-strong{
-	font-size:13px;
+#bottom1 {
+    color: #cf0005;
+    font-size: 13px;
+    font-style: italic;
     font-family: 'PT Sans', sans-serif;
-    color:#747474;
+}
+strong {
+    font-size: 13px;
+    font-family: 'PT Sans', sans-serif;
+    color: #747474;
 }
 
 
