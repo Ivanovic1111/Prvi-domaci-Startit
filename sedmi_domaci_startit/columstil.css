@@ -1,0 +1,63 @@
+.container>div {
+    display: inline;
+}
+body > div.container > div:nth-child(1) > a > img {
+    position: relative;
+    left: -52px;
+    top: -43px;
+    border: 2px solid green;
+}
+body > div.container > div:nth-child(2) > a > img {
+    position: relative;
+    left: 109px;
+    top: -43px;
+    border: 2px solid green;
+}
+body > div.container > div:nth-child(3) > a > img {
+    position: relative;
+    left: 269px;
+    top: -43px;
+    border: 2px solid green
+}
+.icons {
+    display: inline;
+}
+body > div.icons > i:nth-child(1) {
+    position: relative;
+    left: 163px;
+    top: -157px;
+}
+body > div.icons > i:nth-child(2) {
+    position: relative;
+    left: 514px;
+    top: -157px;
+}
+body > div.icons > i:nth-child(3) {
+    position: relative;
+    left: 862px;
+    top: -157px;
+}
+.paragraf {
+    display: inline;
+}
+body > div.paragraf > p:nth-child(1) {
+    display: inline;
+    position: relative;
+    left: 78px;
+    top: -80px;
+    background-color: yellow;
+}
+body > div.paragraf > p:nth-child(2) {
+    display: inline;
+    position: relative;
+    left: 373px;
+    top: -80px;
+    background-color: yellow;
+}
+body > div.paragraf > p:nth-child(3) {
+    display: inline;
+    position: relative;
+    left: 667px;
+    top: -79px;
+    background-color: yellow;
+}
