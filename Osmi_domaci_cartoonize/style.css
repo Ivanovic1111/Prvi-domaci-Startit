@@ -121,9 +121,10 @@ body > div.imagecontainer > figure:nth-child(2) > img{
 	display:block;
 	width:60%;
 	margin:0 auto;
-	position:absolute;
-	top:580px;
-	    transform: translate(-50%, -50%);
+	position: absolute;
+    top: 781px;
+    transform: translate(-50%, -50%);
+    left: 834px;
 
 }
 body > div.imagecontainer > figure:nth-child(3) > img{
@@ -132,7 +133,7 @@ body > div.imagecontainer > figure:nth-child(3) > img{
     width: 50%;
     margin: 0 auto;
     position: absolute;
-    top: 725px;
+    top: 796px;
     left: 300px;	
 	transform: translate(-50%, -50%);
 
