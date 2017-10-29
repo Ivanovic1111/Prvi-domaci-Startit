@@ -1,0 +1,112 @@
+body{
+	background-color:#242422;
+}
+body {margin: 0;}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #242424;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+/*************************/
+h2{
+	font-size:36px;
+	line-height:44px;
+	color:#fff;
+	text-align:center;
+}
+p{
+	text-align:center;
+	margin:0 auto;
+}
+.row{
+	box-sizing: border-box;
+    max-width: 1200px;
+    padding: 72px 50px 0;
+    position: relative;
+		margin:0 auto;
+	}
+.row>p{
+	    color:grey;
+    margin-bottom: 30px;
+    max-width: 710px;
+}
+.con{
+	margin 0 auto;
+	text-align:center;
+}
+/*First button-Open Windows*/
+body > section > button:nth-child(2){
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+body > section > button:nth-child(1){
+	background-color: #fff; 
+    border: none;
+    color: grey;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	margin-right:20px;
+}
+/*Buttons responsive*/
+@media (max-width: 768px) {
+  .btn {
+    font-size:11px;
+    padding:4px 6px;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn {
+    font-size:12px;
+    padding:6px 12px;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn {
+    font-size:14px;
+    padding:8px 12px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .btn {
+    padding:10px 16px;
+    font-size:18px;
+	text-align:center;
+  }
+}
+
