@@ -1,9 +1,8 @@
 body{
 	background-color:#242422;
 }
-body {margin: 0;}
 
-ul.topnav {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -11,9 +10,9 @@ ul.topnav {
     background-color: #242424;
 }
 
-ul.topnav li {float: left;}
+ul li {float: left;}
 
-ul.topnav li a {
+ul li a {
     display: block;
     color: white;
     text-align: center;
@@ -21,15 +20,14 @@ ul.topnav li a {
     text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #111;}
+ul li a:hover:not(.active) {background-color: #111;}
 
-ul.topnav li a.active {background-color: #4CAF50;}
+ulli a.active {background-color: #4CAF50;}
 
-ul.topnav li.right {float: right;}
+ul li a.right{float: right;}
 
 @media screen and (max-width: 600px){
-    ul.topnav li.right, 
-    ul.topnav li {float: none;}
+    #menu > li:nth-child(7) > a > img{float: none;}
 }
 /*************************/
 h2{
@@ -47,10 +45,10 @@ p{
     max-width: 1200px;
     padding: 72px 50px 0;
     position: relative;
-		margin:0 auto;
+	margin:0 auto;
 	}
 .row>p{
-	    color:grey;
+	color:grey;
     margin-bottom: 30px;
     max-width: 710px;
 }
@@ -59,7 +57,7 @@ p{
 	text-align:center;
 }
 /*First button-Open Windows*/
-body > section > button:nth-child(2){
+body > section > button:nth-child(1){
 	background-color: #4CAF50; /* Green */
     border: none;
     color: white;
@@ -69,7 +67,7 @@ body > section > button:nth-child(2){
     display: inline-block;
     font-size: 16px;
 }
-body > section > button:nth-child(1){
+body > section > button:nth-child(2){
 	background-color: #fff; 
     border: none;
     color: grey;
@@ -109,4 +107,45 @@ body > section > button:nth-child(1){
 	text-align:center;
   }
 }
+/*********** image monitor*/
+body > div.imagecontainer > figure:nth-child(1) > img{
+	display:block;
+	max-width:800px;
+	width:70%;
+	margin:0 auto;
+	position:relative;
 
+}
+body > div.imagecontainer > figure:nth-child(2) > img{
+    max-width:200px;
+	display:block;
+	width:60%;
+	margin:0 auto;
+	position:absolute;
+	top:580px;
+	    transform: translate(-50%, -50%);
+
+}
+body > div.imagecontainer > figure:nth-child(3) > img{
+	max-width: 140px;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 725px;
+    left: 300px;	
+	transform: translate(-50%, -50%);
+
+}
+ @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+
+	  ul li a{
+    float: left;
+    width: 60%;
+  }
+ body > div.imagecontainer > figure:nth-child(3) {
+	 display:block;
+	 max-width:300px;
+	 margin:0 auto;
+ }
+}
