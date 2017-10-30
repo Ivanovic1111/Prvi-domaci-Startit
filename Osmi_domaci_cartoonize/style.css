@@ -57,11 +57,11 @@ body > section > button:nth-child(1){
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-	margin-left:294px;
+	margin-left:314px;
 	margin-right:40px;
 	margin-top:34px;
 	margin-bottom:70px;
-	 display:inline-block;
+	display:inline-block;
 }
 body > section > button:nth-child(2){
 	background-color: #fff; 
@@ -95,7 +95,7 @@ body > div.imagecontainer > figure:nth-child(2) > img{
     left: 150px;
 
 }
-   
+   /*Floppy*/
 body > div.imagecontainer > figure:nth-child(3) > img{
 	max-width: 140px;
     display: block;
@@ -104,7 +104,7 @@ body > div.imagecontainer > figure:nth-child(3) > img{
     position: absolute;
     top: 493px;
     left: 766px;
-	    transform: translate(-50%, -5%);
+	 transform: translate(-50%, -5%);
 
 	  }
 
@@ -114,6 +114,11 @@ body > div.imagecontainer > figure:nth-child(3) > img{
 
 /* ul li a.active {background-color: #4CAF50;}
  */
+/*********************
+
+MEDIA QUERIES  <600PX
+
+*********************/
 
 @media screen and (max-width: 600px){
     #menu > li:nth-child(7) > a > img{float: none;}
@@ -123,45 +128,49 @@ body > div.imagecontainer > figure:nth-child(3) > img{
 	  transform: translate(9%, 38%);
 
 	}
-	body > div.imagecontainer > figure:nth-child(2){
-		    width: 20%;
+		/*Mobile device*/
+body > div.imagecontainer > figure:nth-child(2) > img {
+    max-width: 100px;
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    position: absolute;
+    top: 920px;
+    transform: translate(-50%, -5%);
+    left: 149px;
+}
+	/*Floppy*/
+	 body > div.imagecontainer > figure:nth-child(3) > img{
+      width: 20%;
     display: block;
     width: 40$;
     margin: 0 auto;
-    position: absolute;
-    top: 931px;
+    position: relative;
+    top: -203px;
     transform: translate(-146%, -16%);
-    left: 150px;
-	}
+    left: 281px;
+}
 	/*First buttom*/
 body > section > button:nth-child(1){
       display:block;
       width:100%;
-	  transform: translate(-84%, 16%);
-
-  
+	  transform:  translate(-6%, 16%);
+	-ms-transform: scale(0.5, 0.5); /* IE 9 */
+    -webkit-transform: scale(0.5, 0.5); /* Safari */
+    transform: scale(0.5, 0.5);
+	    
 }
 	/*Second buttom*/
 
 body > section > button:nth-child(2){
       display:block;
       width:100%;
-	  transform: translate(-4%, -7%);
-
+	  transform: translate(-4%, -47%);
+	 -
+}
   }
-  body > div.imagecontainer > figure:nth-child(3) > img{
-	max-width: 140px;
-    display: block;
-    width: 50%;
-    margin: 0 auto;
-    position: absolute;
-    top: 522px;
-    left: 890px;
-    transform: translate(-50%, -50%);
 
-}
 
-}
 /*************************/
 
 
