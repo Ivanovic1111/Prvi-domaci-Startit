@@ -50,6 +50,26 @@ body > div > div > h6 > button{ font-size: 22px;
   justify-content: flex-start;
   align-items: center;
 }
+/*second div*/
+.row {
+min-height: 100vh;
+display: flex;
+align-items: flex-start;
+flex-direction:row;
+justify-content:space-around;
+/*  flex-wrap: wrap;
+ */}
+img[src^="http://nego2.demo.towerthemes.com/image/catalog/cmsblock/img1-top-nego2.jpg"]{
+	margin:20px 20px;
+}
+
+img[src^="http://nego2.demo.towerthemes.com/image/catalog/cmsblock/img2-top-nego2.jpg"]{
+	margin:20px 20px;
+	flex:2;
+}
+
+
+
 
 
     /*==========  Non-Mobile First Method  ==========*/
@@ -64,6 +84,28 @@ body > div > div > h6 > button{ font-size: 22px;
   justify-content: flex-start;
   align-items: center;
 }
+			h1 {
+  font-size: 10.9vw;
+}
+h2 ,h3,h6{
+  font-size: 7.0vh;
+}
+p {
+  font-size: 6vmin;
+}
+img[src^="http://nego2.demo.towerthemes.com/image/catalog/cmsblock/img2-top-nego2.jpg"]{
+	margin:20px 20px;
+/* 	flex-shrink:1;
+ */
+ width:68vw;
+ }
+ 
+ img[src^="http://nego2.demo.towerthemes.com/image/catalog/cmsblock/img1-top-nego2.jpg"]{
+	margin:20px 20px;
+	 width:33vw;
+
+}
+ 
 
 	}
     /* Medium Devices, Desktops */
@@ -149,17 +191,37 @@ p {
   text-align: center;
   word-wrap:wrap;
   	
-
 	}
 h1 {
   font-size: 5.9vw;
 }
 h2 ,h3,h6{
   font-size: 3.0vh;
+}img[src^="http://nego2.demo.towerthemes.com/image/catalog/cmsblock/img2-top-nego2.jpg"]{
+	margin:20px 20px;
+/* 	flex-shrink:1;
+ */
+ width:35vw;
+ }
+ 
+ img[src^="http://nego2.demo.towerthemes.com/image/catalog/cmsblock/img1-top-nego2.jpg"]{
+	margin:20px 20px;
+	 width:30vw;
+
 }
 p {
   font-size: 2vmin;
 }
+/*Drugi div sa 2 slike*/
+.row {
+min-height: 50vh;
+display: flex;
+align-items: column;
+flex-direction:row;
+justify-content:space-around;
+flex-wrap: wrap;
+}
+
 	}
 	/* @media all and (min-width: 960px) {
     body{
