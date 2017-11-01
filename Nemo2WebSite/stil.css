@@ -75,7 +75,19 @@ body > div > div > h6 > button{ font-size: 22px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-    }}
+    }
+			h1 {
+  font-size: 9.9vw;
+}
+h2 ,h3,h6{
+  font-size: 6.0vh;
+}
+p {
+  font-size: 5vmin;
+}
+  
+	
+	}
 
     /* Small Devices, Tablets */
     @media only screen and (max-width : 768px) {
@@ -87,6 +99,15 @@ body > div > div > h6 > button{ font-size: 22px;
   justify-content: flex-start;
   align-items: center;
     }
+		h1 {
+  font-size: 8.9vw;
+}
+h2 ,h3,h6{
+  font-size: 5.0vh;
+}
+p {
+  font-size: 4vmin;
+}
     }
 
     /* Extra Small Devices, Phones */ 
@@ -94,11 +115,20 @@ body > div > div > h6 > button{ font-size: 22px;
 		.banner {	
   background: url('http://nego2.demo.towerthemes.com/image/cache/catalog/slideshow/slider2-nego2-1920x960.jpg') top left/cover no-repeat;
   height: 300px;
-  width:200px;
+  width:470px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
     }
+	h1 {
+  font-size: 7.9vw;
+}
+h2 ,h3,h6{
+  font-size: 4.0vh;
+}
+p {
+  font-size: 3vmin;
+}
 
     }
 
@@ -107,13 +137,31 @@ body > div > div > h6 > button{ font-size: 22px;
 .banner {	
   background: url('http://nego2.demo.towerthemes.com/image/cache/catalog/slideshow/slider2-nego2-1920x960.jpg') top left/cover no-repeat;
   height: 200px;
-  width:300px;
+  width:310px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
     
-	}}
-	@media all and (min-width: 960px) {
+	}
+	.banner h1, .banner h3, .banner h6 {
+  padding-left:0px;
+  margin: 0;
+  text-align: center;
+  word-wrap:wrap;
+  	
+
+	}
+h1 {
+  font-size: 5.9vw;
+}
+h2 ,h3,h6{
+  font-size: 3.0vh;
+}
+p {
+  font-size: 2vmin;
+}
+	}
+	/* @media all and (min-width: 960px) {
     body{
         font-size: 18px;
     }
@@ -130,6 +178,6 @@ body > div > div > h6 > button{ font-size: 22px;
         font-size: 12px;
     }
  
-}
+} */
 
 
