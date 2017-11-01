@@ -31,11 +31,13 @@ body > div > div > h6 > button{ font-size: 22px;
 	margin-bottom:70px;
 	display:inline-block;
 	max-width:100%;
-	height:52px;
-	width:196px;
+	/* height:52px;
+	width:196px; */
 	}
 
 .banner h1, .banner h3, .banner h6 {
+  padding-bottom:30px;
+  padding-left:30px;
   padding-left:40px;
   margin: 0;
   text-align: left;
@@ -44,42 +46,34 @@ body > div > div > h6 > button{ font-size: 22px;
 
 .banner {
   background: url('http://nego2.demo.towerthemes.com/image/cache/catalog/slideshow/slider2-nego2-1920x960.jpg') top left/cover no-repeat;
-  height: 558px;
-  width:1269px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  background-position:cover;
 }
 /*second div*/
 .row {
-min-height: 100vh;
 display: flex;
 align-items: flex-start;
 flex-direction:row;
 justify-content:space-around;
-/*  flex-wrap: wrap;
- */}
+
+ }
 img[src^="http://nego2.demo.towerthemes.com/image/catalog/cmsblock/img1-top-nego2.jpg"]{
 	margin:20px 20px;
 }
 
 img[src^="http://nego2.demo.towerthemes.com/image/catalog/cmsblock/img2-top-nego2.jpg"]{
 	margin:20px 20px;
-	flex:2;
 }
-
-
-
-
 
     /*==========  Non-Mobile First Method  ==========*/
 
     /* Large Devices, Wide Screens */
     @media only screen and (max-width : 1200px) {
 .banner {
+	width:90%
   background: url('http://nego2.demo.towerthemes.com/image/cache/catalog/slideshow/slider2-nego2-1920x960.jpg') top left/cover no-repeat;
-  height: 558px;
-  width:1100px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -95,25 +89,20 @@ p {
 }
 img[src^="http://nego2.demo.towerthemes.com/image/catalog/cmsblock/img2-top-nego2.jpg"]{
 	margin:20px 20px;
-/* 	flex-shrink:1;
- */
- width:68vw;
+	width:90%
  }
  
  img[src^="http://nego2.demo.towerthemes.com/image/catalog/cmsblock/img1-top-nego2.jpg"]{
 	margin:20px 20px;
-	 width:33vw;
-
+	width:80%;
 }
- 
 
 	}
     /* Medium Devices, Desktops */
     @media only screen and (max-width : 992px) {
 	.banner {	
   background: url('http://nego2.demo.towerthemes.com/image/cache/catalog/slideshow/slider2-nego2-1920x960.jpg') top left/cover no-repeat;
-  height: 558px;
-  width:992px;
+  width:90%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -135,8 +124,7 @@ p {
     @media only screen and (max-width : 768px) {
 .banner {	
   background: url('http://nego2.demo.towerthemes.com/image/cache/catalog/slideshow/slider2-nego2-1920x960.jpg') top left/cover no-repeat;
-  height: 558px;
-  width:992px;
+  width:80%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -154,10 +142,9 @@ p {
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
-		.banner {	
+.banner {
+  width:80%;	
   background: url('http://nego2.demo.towerthemes.com/image/cache/catalog/slideshow/slider2-nego2-1920x960.jpg') top left/cover no-repeat;
-  height: 300px;
-  width:470px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -178,8 +165,7 @@ p {
     @media only screen and (max-width : 320px) {
 .banner {	
   background: url('http://nego2.demo.towerthemes.com/image/cache/catalog/slideshow/slider2-nego2-1920x960.jpg') top left/cover no-repeat;
-  height: 200px;
-  width:310px;
+  width:30%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -199,14 +185,12 @@ h2 ,h3,h6{
   font-size: 3.0vh;
 }img[src^="http://nego2.demo.towerthemes.com/image/catalog/cmsblock/img2-top-nego2.jpg"]{
 	margin:20px 20px;
-/* 	flex-shrink:1;
- */
- width:35vw;
+    width:96%;
  }
  
  img[src^="http://nego2.demo.towerthemes.com/image/catalog/cmsblock/img1-top-nego2.jpg"]{
 	margin:20px 20px;
-	 width:30vw;
+	 width:96%;
 
 }
 p {
@@ -214,32 +198,14 @@ p {
 }
 /*Drugi div sa 2 slike*/
 .row {
-min-height: 50vh;
 display: flex;
 align-items: column;
 flex-direction:row;
 justify-content:space-around;
 flex-wrap: wrap;
-}
-
-	}
-	/* @media all and (min-width: 960px) {
-    body{
-        font-size: 18px;
-    }
-}
- 
-@media all and (max-width: 959px) and (min-width: 600px) {
-    body{
-        font-size: 16px;
-    }
-}
- 
-@media all and (max-width: 599px) and (min-width: 320px) {
-    body{
-        font-size: 12px;
-    }
- 
 } */
 
+	}
 
+
+ 
