@@ -132,7 +132,155 @@ Section //women , men , kids , jewellery
 	margin-right:8%;
 }
 
-    /*==========  Non-Mobile First Method  ==========*/
+  
+/*Drugi div sa 2 slike*/
+.row {
+display: flex;
+align-items: column;
+flex-direction:row;
+justify-content:space-around;
+flex-wrap: wrap;
+} 
+
+	}
+	
+/*******************************
+
+Section with tree column of text
+
+**********************************/
+
+.container{
+	text-align:center;
+	
+}
+.prvi{
+	margin-bottom:1.3%;
+	margin-top:7%;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.drugi{
+	margin-bottom: 42px;
+    font-size: 12px;
+    line-height: 24px;
+    margin-top: 9px;
+	font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #707070;
+}
+
+/*Style for footer*/
+.container-fluid{
+	color:lightGrey;
+	width: 100%;
+    padding-top: 30px;
+}
+/*Buttons in footer*/
+.buttonfooter{
+     line-height: 32px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 6px;
+    background: #2e2e2e;
+    color: darkGrey;
+    padding: 0 20px;
+    margin-bottom: 15px;
+	transition: all 300ms ease-in-out;
+	border:none;
+	font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+	font-size:12px;
+}
+
+/*Copyright*/
+
+.footer-content .des a:hover {
+	color: #ee3333;
+}
+.footer-bottom{
+	background-color:#2e2e2e;
+}
+.footer-bottom .footer-copyright {
+	float: left;
+	color: #535353;
+	font-size: 12px;
+	background: none;
+	text-transform: capitalize;
+	font-weight: 400;
+	text-align: left;
+	padding: 13px 0;
+}
+.footer-bottom .footer-copyright a {
+	color: #535353;!important;
+	text-decoration:none;
+}
+.footer-bottom .footer-copyright a:hover {
+	text-decoration: underline;
+}
+/*style for oct*/
+.oct{
+	width:50px;
+	height:70px;
+	top:6%;
+	left:14%;
+	background-color:#fff;
+	position:absolute;
+	color:#929292;
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+	border-radius:10%;
+}
+.prvidiv{
+margin-left: 0.1%;
+}
+.row{
+	box-sizing:border-box;
+	  margin-top:20px;
+
+}
+h4{
+	margin-left:10px;
+	color:#23232c;
+	font-family:Poppins, sans-serif !important;
+	font-size:12px;
+
+}
+h4~p {
+     margin: 2% 8%;
+	 font-family: 'Poppins', serif !important;
+     margin-top:6%;
+	 
+}
+.row:first-child{
+	 margin-left:5%;
+}
+h4 span{
+	color:#9d9d9d;
+	font-size:12px;
+}
+
+.kontejner{
+ /*  display: flex;
+  flex-direction;row;
+  justify-content:space-around;
+  align-items:center;
+  width:100%; */
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row /* works with row or column */
+   flex-direction: row;
+   -webkit-align-items: flex-start;
+   align-items: flex-start;
+   -webkit-justify-content:space-around;
+   justify-content:space-around;
+  flex-direction: row;
+}
+img{
+width:98%;
+}
+  /*==========  Non-Mobile First Method  ==========*/
 
     /* Large Devices, Wide Screens */
     @media only screen and (max-width : 1200px) {
@@ -231,7 +379,7 @@ p {
     @media only screen and (max-width : 320px) {
 .banner {	
   background: url('http://nego2.demo.towerthemes.com/image/cache/catalog/slideshow/slider1-nego2-1920x960.jpg') top left/cover no-repeat;
-  width:30%;
+  width:24%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -262,89 +410,12 @@ h2 ,h3,h6{
 p {
   font-size: 2vmin;
 }
-/*Drugi div sa 2 slike*/
-.row {
-display: flex;
-align-items: column;
-flex-direction:row;
-justify-content:space-around;
-flex-wrap: wrap;
-} */
-
-	}
+/* @media only screen and (max-width: 768px) {
+    /* For mobile phones: 
+    [class*="col-"] {
+        width: 100%;
+    } 
 	
-/*******************************
 
-Section with tree column of text
-
-**********************************/
-
-.container{
-	text-align:center;
-	
 }
-.prvi{
-	margin-bottom:1.3%;
-	margin-top:7%;
-    font-size: 24px;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-.drugi{
-	margin-bottom: 42px;
-    font-size: 12px;
-    line-height: 24px;
-    margin-top: 9px;
-	font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    color: #707070;
-}
-
-/*Style for footer*/
-.container-fluid{
-	color:lightGrey;
-	width: 100%;
-    padding-top: 30px;
-}
-/*Buttons in footer*/
-.buttonfooter{
-     line-height: 32px;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 6px;
-    background: #2e2e2e;
-    color: darkGrey;
-    padding: 0 20px;
-    margin-bottom: 15px;
-	transition: all 300ms ease-in-out;
-	border:none;
-	font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-	font-size:12px;
-}
-
-/*Copyright*/
-
-.footer-content .des a:hover {
-	color: #ee3333;
-}
-.footer-bottom{
-	background-color:#2e2e2e;
-}
-.footer-bottom .footer-copyright {
-	float: left;
-	color: #535353;
-	font-size: 12px;
-	background: none;
-	text-transform: capitalize;
-	font-weight: 400;
-	text-align: left;
-	padding: 13px 0;
-}
-.footer-bottom .footer-copyright a {
-	color: #535353;!important;
-	text-decoration:none;
-}
-.footer-bottom .footer-copyright a:hover {
-	text-decoration: underline;
-}
+*/
